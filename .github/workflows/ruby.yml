@@ -15,6 +15,11 @@ on:
 permissions:
   contents: read
 
+env:
+  # Setting an environment variable with the value of a configuration variable
+  var: ${{ vars.VAR }}
+  secret: ${{ secrets.SECRET }}
+
 jobs:
   test:
 
