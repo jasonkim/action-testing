@@ -1,5 +1,5 @@
 #! /usr/bin/env ruby
 
-require 'open-uri'
-
-puts URI.open("http://n7hq.masseffect.com/home/inventory/?name=Flightsofterror&platform=xbox")
+puts "Var from ruby: #{ENV['var']}"
+puts "Secret from ruby: #{ENV['secret']}"
+puts Gem::Platform.local.to_s
