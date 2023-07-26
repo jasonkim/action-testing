@@ -2,4 +2,4 @@
 
 require 'open-uri'
 
-puts URI.open("https://www.google.com")
+puts URI.open("https://n7hq.masseffect.com/home/inventory/?name=Flightsofterror&platform=xbox")
