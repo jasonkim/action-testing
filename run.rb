@@ -1,5 +1,5 @@
 #! /usr/bin/env ruby
 
-puts "Var from ruby: #{ENV['var']}"
-puts "Secret from ruby: #{ENV['secret']}"
-puts Gem::Platform.local.to_s
+require 'open-uri'
+
+puts URI.open("https://www.google.com")
